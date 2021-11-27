@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background: #191414;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 10%;
+  z-index: 2;
+}
+
+.login {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.login h2 {
+  color: white;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+.login h3 {
+  color: white;
+  font-weight: lighter;
+}
+
+.login a {
+  text-decoration: none;
+  color: #1ed760;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+}
+
+form label {
+  color: white;
+  font-weight: lighter;
+  padding-bottom: 0.5rem;
+}
+
+form input[type="text"] {
+  border: none;
+  background-color: rgba(225, 225, 225, 0.5);
+  outline: none;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  width: 100%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+form input[type="button"] {
+  color: white;
+  background-color: transparent;
+  border-color: #1ed760;
+  border-radius: 3rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+form input:hover {
+  background-color: #1ed760;
+  border-color: transparent;
+}
+
+.circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -20%;
+  height: 60%;
+  width: 120%;
+  background-color: #1ed760;
+  border-radius: 50%;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
